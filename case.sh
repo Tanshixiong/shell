@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#using the case command
+
+case $USER in
+rich| tan-tsx)
+    echo "welcome. $USER"
+    echo "Please enjoy your visit."
+    ;;
+testing)
+    echo "Specail testing account."
+    ;;
+jesscia)
+    echo "Do not forget to log off when you're done."
+    ;;
+*)
+    echo "Sorry. you are not allowed here."
+    ;;
+esac
